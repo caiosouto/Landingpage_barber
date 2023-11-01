@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600&display=swap" rel="stylesheet" />
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style.scss" />
     <link rel="stylesheet" href="partials/_colors.scss">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Page Barber</title>
 </head>
 <body>
@@ -18,7 +20,7 @@
         <header>
 
             <nav class="header-content container">
-                <div class="header-icons">
+                <div class="header-icons" data-aos="fade-down">
                     <a href="#">
                         <i class="fa-brands fa-instagram da-2x"></i>
                     </a>
@@ -30,17 +32,17 @@
                     </a>
                 </div>
 
-                <div class="header-logo">
-                    <img src="assets/logo-barber.svg" alt="logo da barbearia">
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500"  src="assets/logo-barber.svg" alt="logo da barbearia">
                 </div>
 
-                <div class="header-button">
+                <div class="header-button" data-aos="fade-down">
                     <a href="#">Agendar Horário</a>
                 </div>
 
             </nav>
 
-            <main class="hero container">
+            <main class="hero container" data-aos="fade-up" data-aos-delay="300">
                 <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
                 <P>Horário de funcionamento: 09:00 ás 19:00</P>
                 <a href="#" class="button-contact" target="_blank">Agendar Horário</a>
@@ -52,10 +54,10 @@
 
     <section class="about">
         <div class="container about-content">
-            <div>
+            <div data-aos="zoom-in" data-aos-delay="100">
                 <img src="assets/imgs-barber.svg" alt="Fotos de corte" />
             </div>
-            <div class="about-decription">
+            <div class="about-decription" data-aos="zoom-out-left" data-aos-delay="250">
                 <h2>Sobre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus praesentium iure officiis quidem cupiditate perferendis, consequuntur nam tempora magni ipsa? Optio suscipit similique excepturi amet, eius doloremque iste alias cupiditate.</p>
                 <p>Horário de funcionamento: <strong>09:00 ás 19:00 </strong></p>
@@ -70,7 +72,7 @@
         </div>
 
         <section class="haircuts">
-                <div class="haircut">
+                <div class="haircut" data-aos="fade-up" data-aos-delay="150">
                         <img src="assets/corte1.png" alt="corte normal" />
                     
                     <div class="haircut-info">
@@ -78,7 +80,7 @@
                         <button>R$45,00</button>
                     </div>
                 </div>
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
                     <img src="assets/corte2.png" alt="barba completa" />
                 
                 <div class="haircut-info">
@@ -87,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="450">
                 <img src="assets/corte3.png" alt="Corte e barba" />            
                 <div class="haircut-info">
                     <strong>Corte e barba</strong>
@@ -124,9 +126,11 @@
         <p>Copyright 2023 | Dev Barbearia - Todos os direitos reservados</p>
     </footer>
 
-    <a href="#" class="btn-whatsapp" target="_blank">
+    <a href="#" class="btn-whatsapp" target="_blank" data-aos="zoom-in-up" data-aos-delay="400">
         <img src="assets/whatssapp-barber.svg" alt="Botão whatssapp">
         <span class="tooltip-text">Agende seu horário</span>
     </a>
+
+    <script src="script.js"></script>
 </body>
 </html>
