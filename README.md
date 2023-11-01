@@ -1,6 +1,8 @@
 # Landingpage_barber
 
-    I created this website using HTML, CSS, and SASS! The goal was to practice my skills, and the code is available for everyone to access. I've provided an animation library that can be accessed through the website!
+    Criei este site utilizando HTML, CSS e SASS! O objetivo foi para praticar conhecimentos e o código está disponível para todos ter acesso. Disponibilizei a biblioteca de animação podendo acessar pelo site!
+
+    - I created this website using HTML, CSS, and SASS! The goal was to practice my skills, and the code is available for everyone to access. I've provided an animation library that can be accessed through the website!
 
 # Google Fonts: https://fonts.google.com/
 
@@ -38,4 +40,3 @@
      <i class="fa-brands fa-instagram da-2x"></i>
      <i class="fa-brands fa-facebook da-2x"></i>
      <i class="fa-brands fa-tiktok da-2x"></i>
-     
